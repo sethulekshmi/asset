@@ -7,7 +7,7 @@ let read = function(req, res)
 {
     tracing.create('ENTER', 'GET blockchain/participants/distributors', {});
    
-
+console.log("entered let");
     if(!participants.hasOwnProperty('distributors'))
     {
         res.status(404);
@@ -22,6 +22,7 @@ let read = function(req, res)
     {
         tracing.create('EXIT', 'GET blockchain/participants/distributors', {'result':participants.distributors});
         res.send({'result':participants.distributors});
+        console.log("entered else");
     }
 
 };
