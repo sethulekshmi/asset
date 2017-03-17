@@ -6,9 +6,7 @@ let participants = require(__dirname+'/../../participants_info.js');
 let read = function(req, res)
 {
     tracing.create('ENTER', 'GET blockchain/participants/distributors', {});
-function myFunction() {
-    alert("ok");
-}
+
     if(!participants.hasOwnProperty('distributors'))
     {
         res.status(404);
