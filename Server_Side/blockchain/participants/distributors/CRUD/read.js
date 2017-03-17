@@ -4,7 +4,6 @@ let tracing = require(__dirname+'/../../../../tools/traces/trace.js');
 let participants = require(__dirname+'/../../participants_info.js');
 
 let read = function(req, res)
-console.log("entered let");
 {
     tracing.create('ENTER', 'GET blockchain/participants/distributors', {});
    
@@ -17,6 +16,7 @@ console.log("entered let");
         error.error = true;
         tracing.create('ERROR', 'GET blockchain/participants/distributors', error);
         res.send(error);
+        console.log("entered if");
     }
     else
     {
