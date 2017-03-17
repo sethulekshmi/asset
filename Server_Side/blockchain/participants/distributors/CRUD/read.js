@@ -4,6 +4,7 @@ let tracing = require(__dirname+'/../../../../tools/traces/trace.js');
 let participants = require(__dirname+'/../../participants_info.js');
 
 let read = function(req, res)
+console.log("entered let");
 {
     tracing.create('ENTER', 'GET blockchain/participants/distributors', {});
    
