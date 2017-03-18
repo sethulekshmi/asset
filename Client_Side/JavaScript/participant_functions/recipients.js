@@ -13,6 +13,7 @@ function loadRecipients()
 	var toRet = [];
     console.log(recPlural)
 	$.ajax({
+    console.log("ajaxcalling");    
 		type: 'GET', 
 		contentType: 'application/json',
 		crossDomain:true,
