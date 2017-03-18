@@ -50,7 +50,7 @@ function loadAssets()
 					}
 					else
 					{
-						if(typeof obj.message == 'undefined' && obj.clarity > 0 && obj.diamondat.toLowerCase() != 'undefined' && obj.diamondat.trim() != '' && obj.cut.toLowerCase() != 'undefined' && obj.cut.trim() != '' && obj.Date.toLowerCase() != 'undefined' && obj.Date.trim() != '' && obj.colour.toLowerCase() != 'undefined' && obj.colour.trim() != '' && !obj.scrapped)
+						if(typeof obj.message == 'undefined' && obj.clarity > 0 && obj.diamondat.toLowerCase() != 'undefined' && obj.diamondat.trim() != '' && obj.cut.toLowerCase() != 'undefined' && obj.cut.trim() != '' && obj.Date.toLowerCase() != 'undefined' && obj.Date.trim() != '' && obj.colour.toLowerCase() != 'undefined' && obj.colour.trim() != '' && obj.symmerty.toLowerCase() != 'undefined' && obj.symmetry.trim() != '' && obj.polish.toLowerCase() != 'undefined' && obj.polish.trim() !='' && obj.timestamp.toLowerCase() != 'undefined' && obj.timestamp.trim() != '' && !obj.scrapped)
 						{
 							objects.push(obj)
 						}
@@ -79,7 +79,7 @@ function loadAssets()
 				for(var i = 0; i < objects.length; i++)
 				{
 					var data = objects[i];
-					$("#assetsTbl").append("<tr class='assetRw'><td class='clarity'>"+data.clarity+"</td><td class='assetDets' ><span class='diamondInfo'>" + data.diamondat + "</span><span class='diamondInfo'>" + data.cut + ", </span><span class='diamondInfo'>" + data.colour + ", </span><span class='diamondInfo'>" + data.date + "</span></td><td class='chkHldr'><span class='chkSpc' ></span><span class='chkBx' ></span><input class='isChk' type='hidden' value='false' /><input class='assetID' type='hidden' value='"+data.assetID+"' /></td></tr>");
+					$("#assetsTbl").append("<tr class='assetRw'><td class='clarity'>"+data.clarity+"</td><td class='assetDets' ><span class='diamondInfo'>" + data.diamondat + "</span><span class='diamondInfo'>" + data.symmetry + "</span><span class='diamondInfo'>"+ data.polish + "</span><span class='diamondInfo'>"+ data.timestamp + "</span><span class='diamondInfo'>"+ data.cut + ", </span><span class='diamondInfo'>" + data.colour + ", </span><span class='diamondInfo'>" + data.date + "</span></td><td class='chkHldr'><span class='chkSpc' ></span><span class='chkBx' ></span><input class='isChk' type='hidden' value='false' /><input class='assetID' type='hidden' value='"+data.assetID+"' /></td></tr>");
 				}
 				changeBarSize();
 			}
@@ -148,6 +148,9 @@ function loadUpdateAssets()
 				if(data.cut.toLowerCase() == 'undefined' || data.cut.trim() == '') data.cut = '&lt;<i>cut</i>&gt;';
 				if(data.date.toLowerCase() == 'undefined' || data.date.trim() == '') data.date = '&lt;<i>date</i>&gt;';
 				if(data.colour.toLowerCase() == 'undefined' || data.colour.trim() == '') data.colour = '&lt;<i>colour</i>&gt;';
+                if(data.symmetry.toLowerCase() == 'undefined' || data.symmetry.trim() == '') data.symmetry = '&lt;<i>symmetry</i>&gt;';
+                if(data.polish.toLowerCase() == 'undefined' || data.polish.trim() == '') data.polish = '&lt;<i>polish</i>&gt;';
+                if(data.timestamp.toLowerCase() == 'undefined' || data.timestamp.trim() == '') data.timestamp = '&lt;<i>timestamp</i>&gt;';
 				$('<tr class="founddiamonds" ><td class="smlBrk"></td><td class="editRw" ><span class="diamondID">'+data.assetID+'</span></td><td class="editRw" colspan="2" >[<span class="diamondclarity">'+data.clarity+'</span>] <span class="diamonddiamondat">'+data.diamondat+'</span> <span class="diamondcut">'+data.cut+'</span>, <span class="diamondColour">'+data.colour+'</span>, <span class="diamondDate">'+data.date+'</span><span class="diamondtimestamp">'+data.Timestamp+'</span><span class="diamondSymmetry">'+data.Symmetry+'</span><span class="diamondPolish">'+data.Polish+'</span><span class="diamondjewellerytype">'+data.jewellerytype+'</span><img src="Icons/distributor/edit.svg" onclick="showEditTbl(this)" class="rtBtn" width="20" height="20" /></td><td class="smlBrk" ></td></tr>').insertAfter('#insAft');
 			}
 		}
