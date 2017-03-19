@@ -15,7 +15,7 @@ let participants_info = {
 	],
 	'distributors': [
 		{
-			'name': 'Soham_Industrial_Diamonds',
+			'name': 'Soham Industrial Diamonds',
 			'identity': 'Soham_Industrial_Diamonds',
 			'password': 'fGMMQqWEPxVy',
 			'address_line_1': 'katragam',
@@ -24,7 +24,7 @@ let participants_info = {
 			'postcode': 'SW1A 1HA'
 		},
 		{
-			'name': 'Laxmi_Impex',
+			'name': 'Laxmi Impex',
 			'identity': 'Laxmi_Impex',
 			'password': 'hTpPFxiOwWgS',
 			'address_line_1': 'khar west',
@@ -33,7 +33,7 @@ let participants_info = {
 			'postcode': 'DE1 9TA'
 		},
 		{
-			'name': 'Harshal_Diamonds',
+			'name': 'Harshal Diamonds',
 			'identity': 'Harshal_Diamonds',
 			'password': 'nNRyjPKrSpUb',
 			'address_line_1': 'Mahidharpura',
@@ -44,7 +44,7 @@ let participants_info = {
 	],
 	'dealerships': [
 		{
-			'name': 'Beon_Group',
+			'name': 'Beon Group',
 			'identity': 'Beon_Group',
 			'password': 'TvNWKDgWTrfH',
 			'address_line_1': '84 Hull Road',
@@ -60,7 +60,7 @@ let participants_info = {
 			'postcode': 'DE94 8HY'
 		},
 		{
-			'name': 'Alfa_Romeo',
+			'name': 'Alfa Romeo',
 			'identity': 'Alfa_Romeo',
 			'password': 'VWjFucyEIzTn',
 			'address_line_1': '25 Lower Lens Street',
@@ -100,7 +100,7 @@ let participants_info = {
 	],
 	'traders': [
 		{
-			'name': 'Ajay_Gosh',
+			'name': 'Ajay Gosh',
 			'identity': 'Ajay_Gosh',
 			'password': 'BKwnxTfJGNyK',
 			'address_line_1': 'Mahadhipura',
@@ -108,7 +108,7 @@ let participants_info = {
 			'postcode': 'SO50 8JR'
 		},
 		{
-			'name': 'Andrew_Hurt',
+			'name': 'Andrew Hurt',
 			'identity': 'Andrew_Hurt',
 			'password': 'tkGIRxBywwMk',
 			'address_line_1': 'Ahmedabad',
@@ -116,7 +116,7 @@ let participants_info = {
 			'postcode': 'SO50 9CL'
 		},
 		{
-			'name': 'Rahul_Ajay_Gandhi',
+			'name': 'Rahul Ajay Gandhi',
 			'identity': 'Rahul_Ajay_Gandhi',
 			'password': 'MrcAgjpBwhmI',
 			'address_line_1': 'Mahadhipura',
@@ -126,7 +126,7 @@ let participants_info = {
 	],
 	'Cutters': [
 		{
-			'name': 'Crayon_Bros_London_Ltd',
+			'name': 'Crayon Bros London Ltd',
 			'identity': 'Crayon_Bros_London_Ltd',
 			'password': 'BTaWHtHrCZry',
 			'address_line_1': '26 Electric Avenue',
@@ -135,7 +135,7 @@ let participants_info = {
 			'postcode': 'SE51 9DR'
 		},
 		{
-			'name': 'Aston_Cutting_Centre',
+			'name': 'Aston Cutting Centre',
 			'identity': 'Aston_Cutting_Centre',
 			'password': 'AzdeAZuGtlUT',
 			'address_line_1': '11 Willow Park Way',
@@ -180,7 +180,7 @@ let participants_info = {
 }
 ],		'Customers': [
 		{
-			'name': 'Gaurav_Singh',
+			'name': 'Gaurav Singh',
 			'identity': 'Gaurav_Singh',
 			'password': 'BTaWHtHrCZry',
 			'address_line_1': 'Mumbai',
