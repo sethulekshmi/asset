@@ -1,11 +1,10 @@
-var recipients = [];
 $(document).ready(function(){
 
 	$('#addToRec').click(function(){
 		$("#recsTbl").html('<tr><td style="text-align:center;"><img src="Images/'+pgNm+'/loading.gif" height="50" width="50" alt="loading" text="please wait..." /></td></tr>');
 		$('#chooseRecTbl').fadeIn(1000);
 		$('#fade').fadeIn(1000);
-		recipients = loadRecipients();
+		loadRecipients();
 	})
 	
 	$('#cclRec').click(function(){
