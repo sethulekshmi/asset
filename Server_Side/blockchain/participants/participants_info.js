@@ -15,8 +15,8 @@ let participants_info = {
 	],
 	'distributors': [
 		{
-			'name': 'soham_industrial_diamonds',
-			'identity': 'soham_industrial_diamonds',
+			'name': 'Soham_Industrial_Diamonds',
+			'identity': 'Soham_Industrial_Diamonds',
 			'password': 'fGMMQqWEPxVy',
 			'address_line_1': 'katragam',
 			'address_line_2': 'Surat',
@@ -24,8 +24,8 @@ let participants_info = {
 			'postcode': 'SW1A 1HA'
 		},
 		{
-			'name': 'laxmi impex',
-			'identity': 'laxmi_impex',
+			'name': 'Laxmi_Impex',
+			'identity': 'Laxmi_Impex',
 			'password': 'hTpPFxiOwWgS',
 			'address_line_1': 'khar west',
 			'address_line_2': 'Mumbai',
@@ -33,8 +33,8 @@ let participants_info = {
 			'postcode': 'DE1 9TA'
 		},
 		{
-			'name': 'harshal diamonds',
-			'identity': 'harshal_diamond',
+			'name': 'Harshal_Diamonds',
+			'identity': 'Harshal_Diamonds',
 			'password': 'nNRyjPKrSpUb',
 			'address_line_1': 'Mahidharpura',
 			'address_line_2': 'Surat',
@@ -60,7 +60,7 @@ let participants_info = {
 			'postcode': 'DE94 8HY'
 		},
 		{
-			'name': 'Alfa Romeo',
+			'name': 'Alfa_Romeo',
 			'identity': 'Alfa_Romeo',
 			'password': 'VWjFucyEIzTn',
 			'address_line_1': '25 Lower Lens Street',
@@ -126,8 +126,8 @@ let participants_info = {
 	],
 	'Cutters': [
 		{
-			'name': 'Crayon_Bros_Ltd',
-			'identity': 'Cray_Bros_London_Ltd',
+			'name': 'Crayon_Bros_London_Ltd',
+			'identity': 'Crayon_Bros_London_Ltd',
 			'password': 'BTaWHtHrCZry',
 			'address_line_1': '26 Electric Avenue',
 			'address_line_2': 'Delhi',
@@ -197,7 +197,7 @@ let participants_info = {
 		},
 		{
 			'name': 'AmarDev',
-			'identity': 'Amar_Dev',
+			'identity': 'AmarDev',
 			'password': 'WDYJcenyScyC',
 			'address_line_1': 'Mumbai',
 			'address_line_2': 'India',
