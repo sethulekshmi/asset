@@ -89,7 +89,7 @@ config.participants.users.dealerships[1].type = 'Dealership';
 config.participants.users.dealerships[1].user = 'Dennis';
 
 config.participants.users.dealerships[2] = {};
-config.participants.users.dealerships[2].company = 'Viewers_Alfa_Romeo';
+config.participants.users.dealerships[2].company = 'Alfa_Romeo';
 config.participants.users.dealerships[2].type = 'Dealership';
 config.participants.users.dealerships[2].user = 'Delia';
 
