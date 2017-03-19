@@ -73,7 +73,7 @@ config.participants.users.distributors[1].type = 'Distributor';
 config.participants.users.distributors[1].user = 'Maria';
 
 config.participants.users.distributors[2] = {};
-config.participants.users.distributors[2].company = 'Harshal_diamonds';
+config.participants.users.distributors[2].company = 'Harshal_Diamonds';
 config.participants.users.distributors[2].type = 'Distributor';
 config.participants.users.distributors[2].user = 'Mandy';
 
