@@ -89,7 +89,7 @@ config.participants.users.dealerships[1].type = 'Dealership';
 config.participants.users.dealerships[1].user = 'Dennis';
 
 config.participants.users.dealerships[2] = {};
-config.participants.users.dealerships[2].company = 'Viewers Alfa Romeo';
+config.participants.users.dealerships[2].company = 'Viewers_Alfa_Romeo';
 config.participants.users.dealerships[2].type = 'Dealership';
 config.participants.users.dealerships[2].user = 'Delia';
 
@@ -116,28 +116,28 @@ config.participants.users.traders[0].type = 'Trader';
 config.participants.users.traders[0].user = 'Joe';
 
 config.participants.users.traders[1] = {};
-config.participants.users.traders[1].company = 'Andrew Hurt';
+config.participants.users.traders[1].company = 'Andrew_Hurt';
 config.participants.users.traders[1].type = 'Trader';
 config.participants.users.traders[1].user = 'Andrew';
 
 config.participants.users.traders[2] = {};
-config.participants.users.traders[2].company = 'Rahul Ajay Gandhi';
+config.participants.users.traders[2].company = 'Rahul_Ajay_Gandhi';
 config.participants.users.traders[2].type = 'Trader';
 config.participants.users.traders[2].user = 'Rahul';
 
 // Cutters
 config.participants.users.cutters[0] = {};
-config.participants.users.cutters[0].company = 'Cray Bros (London) Ltd';
+config.participants.users.cutters[0].company = 'Cray_Bros_London_Ltd';
 config.participants.users.cutters[0].type = 'Cutter';
 config.participants.users.cutters[0].user = 'Sandy';
 
 config.participants.users.cutters[1] = {};
-config.participants.users.cutters[1].company = 'Aston Cutting Centre';
+config.participants.users.cutters[1].company = 'Aston_Cutting_Centre';
 config.participants.users.cutters[1].type = 'Cutter';
 config.participants.users.cutters[1].user = 'Scott';
 
 config.participants.users.cutters[2] = {};
-config.participants.users.cutters[2].company = 'ScrapIt! UK';
+config.participants.users.cutters[2].company = 'ScrapIt';
 config.participants.users.cutters[2].type = 'Cutter';
 config.participants.users.cutters[2].user = 'Sid';
 
@@ -145,33 +145,33 @@ config.participants.users.cutters[2].user = 'Sid';
 config.participants.users.jewellery_makers[0] = {};
 config.participants.users.jewellery_makers[0].company = 'Adora';
 config.participants.users.jewellery_makers[0].type = 'Jewellery_maker';
-config.participants.users.jewellery_makers[0].user = 'Sandy';
+config.participants.users.jewellery_makers[0].user = 'Sani';
 
 config.participants.users.jewellery_makers[1] = {};
 config.participants.users.jewellery_makers[1].company = 'Tanishq';
 config.participants.users.jewellery_makers[1].type = 'Jewellery_maker';
-config.participants.users.jewellery_makers[1].user = 'Scott';
+config.participants.users.jewellery_makers[1].user = 'Sam';
 
 config.participants.users.jewellery_makers[2] = {};
 config.participants.users.jewellery_makers[2].company = 'Kiah';
 config.participants.users.jewellery_makers[2].type = 'Jewellery_maker';
-config.participants.users.jewellery_makers[2].user = 'Sid';
+config.participants.users.jewellery_makers[2].user = 'Sow';
 
 // Customers
 config.participants.users.customers[0] = {};
-config.participants.users.customers[0].user = 'Gaurav Singh';
+config.participants.users.customers[0].user = 'Gaurav_Singh';
 config.participants.users.customers[0].type = 'Customer';
-config.participants.users.customers[0].user = 'Sandy';
+config.participants.users.customers[0].user = 'San';
 
 config.participants.users.customers[1] = {};
 config.participants.users.customers[1].user = 'Adwaith';
 config.participants.users.customers[1].type = 'Customer';
-config.participants.users.customers[1].user = 'Scott';
+config.participants.users.customers[1].user = 'Sok';
 
 config.participants.users.customers[2] = {};
-config.participants.users.customers[2].user = 'Amardev';
+config.participants.users.customers[2].user = 'AmarDev';
 config.participants.users.customers[2].type = 'Customer';
-config.participants.users.customers[2].user = 'Sid';
+config.participants.users.customers[2].user = 'Sohan';
 
 
 
