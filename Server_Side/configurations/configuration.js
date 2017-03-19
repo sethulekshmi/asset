@@ -109,10 +109,10 @@ config.users = [
         affiliation: 'institution_a'
     },
     {
-        enrollmentID: 'Viewers_laxmi_impex',
+        enrollmentID: 'Alfa_Romeo',
         attributes: [
             {name: 'role', value: 'dealership'},
-            {name: 'username', value: 'Viewers_laxmi_impex'}
+            {name: 'username', value: 'Alfa_Romeo'}
         ],
         registrar: {},
         roles: [],
