@@ -59,30 +59,30 @@ config.users = [
         affiliation: 'institution_a'
     },
     {
-        enrollmentID: 'soham_industrial_diamonds',
+        enrollmentID: 'Soham_Industrial_Diamonds',
         attributes: [
             {name: 'role', value: 'distributor'},
-            {name: 'username', value: 'soham_industrial_diamonds'}
+            {name: 'username', value: 'Soham_Industrial_Diamonds'}
         ],
         registrar: {},
         roles: [],
         affiliation: 'institution_a'
     },
     {
-        enrollmentID: 'laxmi_impex',
+        enrollmentID: 'Laxmi_Impex',
         attributes: [
             {name: 'role', value: 'distributor'},
-            {name: 'username', value: 'laxmi_impex'}
+            {name: 'username', value: 'Laxmi_Impex'}
         ],
         registrar: {},
         roles: [],
         affiliation: 'institution_a'
     },
     {
-        enrollmentID: 'harshal_diamonds',
+        enrollmentID: 'Harshal_Diamonds',
         attributes: [
             {name: 'role', value: 'distributor'},
-            {name: 'username', value: 'harshal_diamonds'}
+            {name: 'username', value: 'Harshal_Diamonds'}
         ],
         registrar: {},
         roles: [],
@@ -192,17 +192,17 @@ config.users = [
         enrollmentID: 'Aston_Cutting_Centre',
         attributes: [
             {name: 'role', value: 'cutter'},
-            {name: 'username', value: 'Aston_Scrap_Centre'}
+            {name: 'username', value: 'Aston_Cutting_Centre'}
         ],
         registrar: {},
         roles: [],
         affiliation: 'institution_a'
     },
     {
-        enrollmentID: 'ScrapIt_UK',
+        enrollmentID: 'ScrapIt',
         attributes: [
             {name: 'role', value: 'cutter'},
-            {name: 'username', value: 'ScrapIt_UK'}
+            {name: 'username', value: 'ScrapIt'}
         ],
         registrar: {},
         roles: [],
@@ -260,10 +260,10 @@ config.users = [
         affiliation: 'institution_a'
     },
     {
-        enrollmentID: 'Amardev',
+        enrollmentID: 'AmarDev',
         attributes: [
             {name: 'role', value: 'customer'},
-            {name: 'username', value: 'Amardev'}
+            {name: 'username', value: 'AmarDev'}
         ],
         registrar: {},
         roles: [],
